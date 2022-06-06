@@ -164,6 +164,7 @@ public class GetAllKeywordsSearchedForCount {
                 // utilization of each customer ID by providing a queue of work (or similar).
                 // However, this
                 // would complicate the example code and so is omitted here.
+                @SuppressWarnings("unused")
                 List<ReportSummary> results = Futures.allAsList(futures).get();
 
                 // System.out.println("Report results for query: " + gaqlQuery);
