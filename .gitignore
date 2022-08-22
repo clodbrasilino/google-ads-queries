@@ -1,3 +1,5 @@
 base.properties
 .vscode
 target/
+.DS_Store
+*.txt
